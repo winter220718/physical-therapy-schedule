@@ -1,0 +1,91 @@
+* {
+
+    box-sizing: border-box;
+}
+
+
+#whole_container {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+
+}
+
+#left_container {
+    /* border:solid 1px black; */
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+
+#left_container>div {
+    /* 버튼공간 */
+    /* border:solid 1px black; */
+    margin: 30px;
+
+}
+
+#right_container {
+    /* border:solid 1px black; */
+    width: 80%;
+}
+
+#Physiotherapist_info {
+    color: darkslategrey;
+    margin-top: 30px;
+    margin-left: 30px;
+    /* border: solid black 1px; */
+    height: auto;
+    position: relative;
+}
+
+#buttons{
+    position: relative;
+    margin-top:20px;
+
+}
+
+#calander {
+
+    /* border: solid black 1px; */
+    margin-top: 30px;
+    height: 80%;
+
+}
+
+
+
+#Physiotherapist_info>div:first-child {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+#Physiotherapist_info>div:nth-child(2) {
+
+    font-size: 20px;
+}
+
+#Physiotherapist_info>span:last-child {
+    position: absolute;
+    top: 5%;
+    left: 160px;
+
+}
+
+#Physiotherapist_info img {
+
+
+    width: 90px;
+
+
+}
+
+button{
+
+    width:200px;
+    height: 30px;
+    margin-bottom: 10px;
+
+
+}
